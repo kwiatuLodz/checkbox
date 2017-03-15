@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>css checked</title>
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="wrapper">
+			<h2>Checkbox</h2>
+			<div class="checkbox c1">
+				<input type="checkbox" name="check-name-1" id="check-1" />
+				<div class="check-content"></div>
+				<label for="check-1">
+					Lorem ipsum dolor sit amet.
+				</label> 
+			</div>
+			<div class="checkbox c2">
+				<input type="checkbox" name="check-name-2" id="check-2" />
+				<div class="check-content"></div>
+				<label for="check-2">
+					Optio accusantium earum nisi ex aperiam?
+				</label> 
+			</div>
+			<div class="checkbox c4">
+				<input type="checkbox" name="check-name-3" id="check-3" />
+				<div class="check-content"></div>
+				<label for="check-3">
+					Deleniti odio distinctio doloribus possimus quam.
+				</label> 
+			</div>
+		</div>
+		<h2>Radio</h2>
+		<div class="wrapper">
+			<div class="checkbox radio">
+				<input type="radio" name="check-name-4" id="check-4" />
+				<div class="check-content"></div>
+				<label for="check-4">
+					Lorem ipsum
+				</label> 
+			</div>
+			<div class="checkbox radio">
+				<input type="radio" name="check-name-4" id="check-5" />
+				<div class="check-content"></div>
+				<label for="check-5">
+					Minus atque?
+				</label> 
+			</div>
+			<div class="checkbox radio">
+				<input type="radio" name="check-name-4" id="check-6" />
+				<div class="check-content"></div>
+				<label for="check-6">
+					Inventore soluta.
+				</label> 
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/checkbox-jquery.js"></script>
+	<script>
+		(function() {
+			$('.checkbox').checkbox();
+		})();
+	</script>
+</body>
+</html>

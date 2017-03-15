@@ -1,0 +1,22 @@
+.size(@width, @height) {
+	width: @width;
+	height: @height;
+}
+
+.transform(@transform) {
+	-webkit-transform: @transform;
+	transform: @transform;
+}
+
+.translate(@translateX, @translateY) {
+	.transform(translate(@translateX, @translateY));
+}
+
+.translateY(@translateY) {
+	.transform(translateY(@translateY));
+}
+
+.animation(@animation) {
+	-webkit-animation: @animation;
+	animation: @animation;
+}
